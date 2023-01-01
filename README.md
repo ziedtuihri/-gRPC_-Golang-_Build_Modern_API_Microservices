@@ -26,7 +26,7 @@ Parsing Protocol Buffers (binary format) is less CPU intensive because it's clos
 
 By using gRPC the use of Protocol Buffers means faster and more efficient communication, friendly with mobile devices that have a slower CPU
 
-gRPC will have the main implementations:
+<p>gRPC will have the main implementations:
   gRPC-JAVA pure implementation of gRPC in java
   gRPC-Go pure implementation of gRPC in Go
   gRPC-C pure implementation of gRPC in C
@@ -35,7 +35,7 @@ gRPC will have the main implementations:
     gRPC Ruby
     gRPC Objective C
     gRPC PHP
-    gRPC C#
+    gRPC C#</p>
     
 ```diff
 +  one of the biggest benefits is often overlooked: multi-language support.
