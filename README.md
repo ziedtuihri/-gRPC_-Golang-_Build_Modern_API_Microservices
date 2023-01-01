@@ -1,6 +1,6 @@
 # -gRPC_-Golang-_Build_Modern_API_Microservices
 
-<h3> Internals Deep Dive </h3>
+<h3> 2. Protocol Buffers & Language Interoperability </h3>
 
 Protocol Buffers role in gRPC
 
@@ -45,7 +45,7 @@ because the code can be generated for any language, it makes it super simple to 
 
 gRPC leverages HHTP/2 as a backbone for communications
 <a hrf="https://imagekit.io/demo/http2-vs-http1">https://imagekit.io/demo/http2-vs-http1</a>
-<h3>3.1 HTTP2 vs HTTP1 comparison</h3>
+<h3>3 HTTP2 vs HTTP1 comparison</h3>
 HTTP 1.1 apons a new TCP connection to a server at each request it does not copress headers (which are plaintext)
 it only works with Request / Response mechanism (no serve push)
 
