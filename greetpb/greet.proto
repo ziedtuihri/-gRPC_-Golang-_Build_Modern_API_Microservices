@@ -1,4 +1,5 @@
 syntax = "proto3";
+// but proto3 is not installed
 
 package greet;
 option go_package="greetpb";
