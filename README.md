@@ -81,15 +81,15 @@ Find the correct protocol buffers version based on your Linux Distro: https://gi
 
 Example with x64:
 
-<h6> Make sure you grab the latest version </h6>
+<h3> Make sure you grab the latest version </h3>
 curl -OL https://github.com/google/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
-<h6> Unzip </h6>
+<h3> Unzip </h3>
 unzip protoc-3.5.1-linux-x86_64.zip -d protoc3
-<h6>  Move protoc to /usr/local/bin/ </h6>
+<h3>  Move protoc to /usr/local/bin/ </h3>
 sudo mv protoc3/bin/* /usr/local/bin/
-<h6>  Move protoc3/include to /usr/local/include/ </h6>
+<h3>  Move protoc3/include to /usr/local/include/ </h3>
 sudo mv protoc3/include/* /usr/local/include/
-<h6>  Optional: change owner </h6>
+<h3>  Optional: change owner </h3>
 sudo chown [user] /usr/local/bin/protoc
 sudo chown -R [user] /usr/local/include/google
 ============ Windows ============
