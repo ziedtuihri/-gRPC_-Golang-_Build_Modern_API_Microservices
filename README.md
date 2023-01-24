@@ -68,7 +68,7 @@ while HTTP/1 text makes it easy for debugging it's not efficient over the networ
 
 HTTP/2 is secure (SSL is not required but recommended by default)
 
-3) Protoc Setup
+<h3>3) Protoc Setup </h3><br>
 In order to perform code generation, you will need to install protoc  on your computer.
 
 ============ MacOSX =============
